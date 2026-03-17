@@ -6,69 +6,79 @@
 <title>Stovka Podyjím 2026</title>
 <style>
 body{
-font-family: Arial, sans-serif;
-margin:0;
-line-height:1.6;
-color:#333;
+  font-family: Arial, sans-serif;
+  margin:0;
+  line-height:1.6;
+  color:#333;
 }
 
+/* Header s background obrázkem */
 header{
-background: url("https://upload.wikimedia.org/wikipedia/commons/8/8c/P%C3%BAdyjiuVrani.jpg") center center / cover no-repeat;
-height: 70vh;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-color: white;
-position: relative;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/8/8c/P%C3%BAdyjiuVrani.jpg") center center / cover no-repeat;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.6); /* lepší čitelnost textu */
 }
 
 header h1{
-font-size:48px;
-margin-bottom:10px;
+  font-size:48px;
+  margin-bottom:10px;
 }
 
 header p{
-font-size:20px;
+  font-size:20px;
 }
 
 .button{
-display:inline-block;
-padding:12px 25px;
-margin-top:15px;
-background:#2f7d32;
-color:white;
-text-decoration:none;
-border-radius:6px;
+  display:inline-block;
+  padding:12px 25px;
+  margin-top:15px;
+  background:#2f7d32;
+  color:white;
+  text-decoration:none;
+  border-radius:6px;
 }
 
 section{
-padding:60px 20px;
-max-width:900px;
-margin:auto;
+  padding:60px 20px;
+  max-width:900px;
+  margin:auto;
 }
 
 .info{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:20px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
 }
 
 footer{
-background:#111;
-color:white;
-text-align:center;
-padding:30px;
-margin-top:40px;
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:30px;
+  margin-top:40px;
 }
 
+/* Responzivita pro mobil */
 @media(max-width:700px){
-.info{
-grid-template-columns:1fr;
-}
-header h1{
-font-size:34px;
-}
+  .info{
+    grid-template-columns:1fr;
+  }
+  header h1{
+    font-size:34px;
+  }
+  header p{
+    font-size:16px;
+  }
+  .button{
+    padding:10px 20px;
+  }
 }
 </style>
 </head>
@@ -76,11 +86,9 @@ font-size:34px;
 <body>
 
 <header>
-<div>
-<h1>Stovka Podyjím 2026</h1>
-<p>110 km dobrodružství podél řeky Dyje</p>
-<a class="button" href="#registrace">Registrace</a>
-</div>
+  <h1>Stovka Podyjím 2026</h1>
+  <p>110 km dobrodružství podél řeky Dyje</p>
+  <a class="button" href="#registrace">Registrace</a>
 </header>
 
 <section>
