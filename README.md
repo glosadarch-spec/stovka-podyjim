@@ -12,9 +12,9 @@ body {
   color: #333;
 }
 
-/* Header s obrázkem */
+/* Header s obrázkem Dyje */
 header {
-  background: url("https://cdn.pixabay.com/photo/2018/07/07/15/30/nature-3520727_1280.jpg") center center / cover no-repeat;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/5/52/The_Dyje_river_%28Thaya_in_German%29_in_National_Park_Podyj%C3%AD.jpg") center center / cover no-repeat;
   height: 75vh;
   display: flex;
   flex-direction: column;
@@ -101,10 +101,10 @@ divokou přírodu a jedinečnou atmosféru.
 <section>
 <h2>Základní informace</h2>
 <div class="info">
-<div><strong>Termín:</strong><br>4.–6. září 2026</div>
-<div><strong>Start:</strong><br>Uherčice</div>
-<div><strong>Cíl:</strong><br>Znojmo</div>
-<div><strong>Startovné:</strong><br>500 Kč</div>
+  <div><strong>Termín:</strong><br>4.–6. září 2026</div>
+  <div><strong>Start:</strong><br>Uherčice</div>
+  <div><strong>Cíl:</strong><br>Znojmo</div>
+  <div><strong>Startovné:</strong><br>500 Kč</div>
 </div>
 </section>
 
