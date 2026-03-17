@@ -13,13 +13,14 @@ color:#333;
 }
 
 header{
-background:url("https://upload.wikimedia.org/wikipedia/commons/8/8c/P%C3%BAdyjiuVrani.jpg") center/cover;
-height:70vh;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-color:white;
+background: url("https://upload.wikimedia.org/wikipedia/commons/8/8c/P%C3%BAdyjiuVrani.jpg") center center / cover no-repeat;
+height: 70vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: white;
+position: relative;
 }
 
 header h1{
