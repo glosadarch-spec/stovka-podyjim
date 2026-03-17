@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Stovka Podyjím 2026</title>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 <style>
 body {
   font-family: 'Roboto', sans-serif;
@@ -13,9 +13,9 @@ body {
   line-height: 1.6;
 }
 
-/* Hero header */
+/* Hero header s fungujícím obrázkem */
 header {
-  background: url("https://cdn.pixabay.com/photo/2018/07/07/15/30/nature-3520727_1280.jpg") center center / cover no-repeat;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/e/ea/Wild_forest_and_river_landscape.jpg") center center / cover no-repeat;
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -63,7 +63,7 @@ header .info {
   background: #1f5a23;
 }
 
-/* Main sections */
+/* Sekce */
 section {
   padding: 60px 20px;
   max-width: 1000px;
