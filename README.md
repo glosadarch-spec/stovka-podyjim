@@ -12,9 +12,9 @@ body {
   color: #333;
 }
 
-/* Header s krásným obrázkem řeky */
+/* Header s původním funkčním obrázkem z Pixabay */
 header {
-  background: url("https://upload.wikimedia.org/wikipedia/commons/c/c8/Beautiful_river_landscape_in_the_fall.jpg") center center / cover no-repeat;
+  background: url("https://cdn.pixabay.com/photo/2018/07/07/15/30/nature-3520727_1280.jpg") center center / cover no-repeat;
   height: 75vh;
   display: flex;
   flex-direction: column;
