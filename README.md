@@ -12,9 +12,9 @@ body {
   color: #333;
 }
 
-/* Header s obrázkem Dyje */
+/* Header s krásným obrázkem řeky */
 header {
-  background: url("https://upload.wikimedia.org/wikipedia/commons/5/52/The_Dyje_river_%28Thaya_in_German%29_in_National_Park_Podyj%C3%AD.jpg") center center / cover no-repeat;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/c/c8/Beautiful_river_landscape_in_the_fall.jpg") center center / cover no-repeat;
   height: 75vh;
   display: flex;
   flex-direction: column;
